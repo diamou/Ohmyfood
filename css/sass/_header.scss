@@ -1,0 +1,20 @@
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+}
+
+
+header{
+
+    @include flexCenter ();
+
+
+    background:$Primary;
+    h1{
+        color:$quaternary;
+    }
+}
+

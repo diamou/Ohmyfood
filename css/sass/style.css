@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+  background: rgb(255, 98, 0);
+}
+header h1 {
+  color: rgb(64, 255, 0);
+}/*# sourceMappingURL=style.css.map */
